@@ -1,6 +1,6 @@
-#crtshcrap
+# crtshcrap
 
-### a scraper for (crt.sh <- more comming
+### a scraper for crt.sh, more coming!
 
 it is easy to use all what you need to do is git a clone
 install requirements using
