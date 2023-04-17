@@ -47,13 +47,12 @@ async def parseResults(keyword: str) -> set:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Netcat replacement", formatter_class=argparse.RawDescriptionHelpFormatter, epilog="")
+    parser = argparse.ArgumentParser(description="scraper for crtsh //willing to add more webistes to scrap from// ", formatter_class=argparse.RawDescriptionHelpFormatter, epilog="")
     parser.add_argument("-d", "--domain", help="specify domain target")
     parser.add_argument("-f", "--file", help="specify domains file")
     parser.add_argument("-o", "--output", help="specify output file")
     args = parser.parse_args()
     result = set()
-    print(len(argv))
     if len(argv) <= 1:
         print(parser.print_help())
 

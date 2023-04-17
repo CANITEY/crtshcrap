@@ -11,13 +11,13 @@ pip install -r requirements.txt
 ```
 usage: crtshcrap.py [-h] [-d DOMAIN] [-f FILE] [-o OUTPUT]
 
-Netcat replacement
+scraper for crtsh //willing to add more webistes to scrap from// 
 
 options:
-  -h, --help            show this help message and exit
-  -d DOMAIN, --domain DOMAIN
-                        specify domain target
-  -f FILE, --file FILE  specify domains file
-  -o OUTPUT, --output OUTPUT
-                        specify output file
+-h, --help            show this help message and exit
+-d DOMAIN, --domain DOMAIN
+specify domain target
+-f FILE, --file FILE  specify domains file
+-o OUTPUT, --output OUTPUT
+specify output file
 ```
