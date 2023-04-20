@@ -54,7 +54,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     result = set()
     if len(argv) <= 1:
-        print(parser.print_help())
+        parser.print_help()
 
     if args.domain:
         result = asyncio.run(parseResults(args.domain))
