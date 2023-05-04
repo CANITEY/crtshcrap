@@ -1,10 +1,12 @@
 #! /usr/bin/env python3
-import aiohttp
-import argparse
-import asyncio
-from aiohttp import ClientResponse, ClientSession
-from sys import argv
-
+try:
+    import aiohttp
+    import argparse
+    import asyncio
+    from aiohttp import ClientResponse, ClientSession
+    from sys import argv
+except Exception as e:
+    exit("you need to install the requirements file \nuse pip install -r requirements.txt")
 timeout = aiohttp.ClientTimeout(total=60)
 
 async def request(url: str, session: ClientSession) -> ClientResponse:
@@ -54,7 +56,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     result = set()
     if len(argv) <= 1:
-        print(parser.print_help())
+        parser.print_help()
 
     if args.domain:
         result = asyncio.run(parseResults(args.domain))
