@@ -1,6 +1,6 @@
-#crtshcrap
+# crtshcrap
 
-### a scraper for (crt.sh <- more comming
+### a scraper for crt.sh, more coming!
 
 it is easy to use all what you need to do is git a clone
 install requirements using
@@ -15,8 +15,7 @@ scraper for crtsh //willing to add more webistes to scrap from//
 
 options:
 -h, --help            show this help message and exit
--d DOMAIN, --domain DOMAIN
-specify domain target
+-d DOMAIN, --domain DOMAIN    specify domain target
 -f FILE, --file FILE  specify domains file
 -o OUTPUT, --output OUTPUT
 specify output file
